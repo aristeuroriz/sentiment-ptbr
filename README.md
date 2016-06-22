@@ -22,7 +22,7 @@ var sentiment = require('sentiment');
 var r1 = sentiment('Gatos são estúpidos!');
 console.dir(r1);        // Score: -2, Comparative: -0.666
 
-var r2 = sentiment('Gatos são muito legais!');
+var r2 = sentiment('Gatos são incríveis!');
 console.dir(r2);        // Score: 4, Comparative: 1
 ```
 
@@ -31,9 +31,9 @@ You can append and/or overwrite values from AFINN by simply injecting key/value 
 ```javascript
 var sentiment = require('sentiment');
 
-var result = sentiment('Gatos são muito legais!', {
-    'cats': 5,
-    'amazing': 2  
+var result = sentiment('Gatos são incríveis!', {
+    'gatos': 5,
+    'incríveis': 2  
 });
 console.dir(result);    // Score: 7, Comparative: 1.75
 ```
