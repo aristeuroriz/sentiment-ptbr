@@ -1,8 +1,8 @@
 /**
  * Converts raw AFINN data to JSON hash table.
  *
- * @package sentiment
- * @author Andrew Sliwinski <andrew@diy.org>
+ * @package sentiment-ptbr
+ * @author Andrew Sliwinski <andrew@diy.org> modified by Aristeu Roriz (pt-BR)
  */
 
 /**
