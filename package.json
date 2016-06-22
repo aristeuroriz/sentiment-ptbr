@@ -1,25 +1,30 @@
 {
-  "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
-  "name": "sentiment",
-  "description": "AFINN-based sentiment analysis for Node.js",
-  "version": "1.0.6",
-  "homepage": "https://github.com/thisandagain/sentiment",
+  "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (pt-BR by Aristeu Roriz)",
+  "name": "sentiment-ptbr",
+  "description": "AFINN-based sentiment analysis for Node.js PS: modified by Aristeu Roriz for test use only",
+  "version": "1.0.0",
+  "homepage": "https://github.com/aristeuroriz/sentiment-ptbr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thisandagain/sentiment.git"
+    "url": "https://github.com/aristeuroriz/sentiment-ptbr.git"
   },
   "keywords": [
     "sentiment",
     "analysis",
     "nlp",
-    "sentiment analysis"
+    "sentiment analysis",
+    "portuguese",
+    "pt-BR",
+    "brazil",
+    "brasil"
   ],
   "main": "./lib/index.js",
   "scripts": {
     "test": "make test"
   },
   "dependencies": {
-    "lodash.assign": "4.0.9"
+    "lodash.assign": "4.0.9",
+    "async": "latest"
   },
   "devDependencies": {
     "Sentimental": "1.0.1",
