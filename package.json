@@ -2,7 +2,7 @@
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (pt-BR by Aristeu Roriz)",
   "name": "sentiment-ptbr",
   "description": "AFINN-based sentiment analysis for Node.js PS: modified by Aristeu Roriz for test use only",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "homepage": "https://github.com/aristeuroriz/sentiment-ptbr",
   "repository": {
     "type": "git",
